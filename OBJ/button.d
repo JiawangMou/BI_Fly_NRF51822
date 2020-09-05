@@ -1,9 +1,9 @@
 ..\obj\button.o: ..\HARDWARE\src\button.c
-..\obj\button.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\button.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\button.o: ..\nrf51_sdk\nrf51822\Include\nrf.h
 ..\obj\button.o: ..\nrf51_sdk\nrf51822\Include\nrf51.h
 ..\obj\button.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h
-..\obj\button.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\button.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\button.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h
 ..\obj\button.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h
 ..\obj\button.o: ..\nrf51_sdk\nrf51822\Include\system_nrf51.h

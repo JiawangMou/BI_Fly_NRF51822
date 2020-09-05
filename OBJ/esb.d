@@ -1,8 +1,8 @@
 ..\obj\esb.o: ..\HARDWARE\src\esb.c
-..\obj\esb.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\esb.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\esb.o: ..\HARDWARE\interface\esb.h
-..\obj\esb.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
-..\obj\esb.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\esb.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\esb.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\esb.o: ..\nrf51_sdk\nrf51822\Include\nrf.h
 ..\obj\esb.o: ..\nrf51_sdk\nrf51822\Include\nrf51.h
 ..\obj\esb.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h

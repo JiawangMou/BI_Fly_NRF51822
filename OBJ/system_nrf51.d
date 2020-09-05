@@ -1,6 +1,6 @@
 ..\obj\system_nrf51.o: system_nrf51.c
-..\obj\system_nrf51.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\system_nrf51.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\system_nrf51.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\system_nrf51.o: D:\Program Files (x86)\Keil_5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\system_nrf51.o: ..\nrf51_sdk\nrf51822\Include\nrf.h
 ..\obj\system_nrf51.o: ..\nrf51_sdk\nrf51822\Include\nrf51.h
 ..\obj\system_nrf51.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h

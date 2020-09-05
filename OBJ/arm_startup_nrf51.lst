@@ -341,12 +341,12 @@ ARM Macro Assembler    Page 6
               00000400 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
-ork --depend=..\obj\arm_startup_nrf51.d -o..\obj\arm_startup_nrf51.o -I"C:\User
-s\38148\Desktop\temp\ÊµÑéÊÒ\Firmware_51822 V1.0£¨¸Ä£©\Firmware_51822 V1.0\USER\
-RTE" -I"D:\Program Files (x86)\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFam
-ilyPack\8.32.1\Device\Include" -I"D:\Program Files (x86)\Keil5\ARM\CMSIS\Includ
-e" --predefine="__UVISION_VERSION SETA 521" --predefine="NRF51822_XXAB SETA 1" 
---list=..\obj\arm_startup_nrf51.lst arm_startup_nrf51.s
+ork --depend=..\obj\arm_startup_nrf51.d -o..\obj\arm_startup_nrf51.o -ID:\WorkS
+pace\BL_FLY\BI_Fly_NRF51822\USER\RTE -I"D:\Program Files (x86)\Keil_5\ARM\PACK\
+NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include" -I"D:\Program F
+iles (x86)\Keil_5\ARM\CMSIS\Include" --predefine="__UVISION_VERSION SETA 521" -
+-predefine="NRF51822_XXAB SETA 1" --list=..\obj\arm_startup_nrf51.lst arm_start
+up_nrf51.s
 
 
 
