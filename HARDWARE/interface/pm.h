@@ -2,7 +2,7 @@
 #define __PM_H
 #include <stdbool.h>
 
-/********************************************************************************	 
+/********************************************************************************
  * 本程序只供学习使用，未经作者许可，不得用于其它任何用途
  * ALIENTEK MiniFly
  * 电源管理驱动代码
@@ -13,14 +13,15 @@
  * 版权所有，盗版必究。
  * Copyright(C) 广州市星翼电子科技有限公司 2014-2024
  * All rights reserved
-********************************************************************************/
+ ********************************************************************************/
 
-void pmPowerOff(void);
-void pmInit(void);
-bool pmUSBPower(void);
-bool pmIsCharging(void);
+void  pmPowerOff(void);
+void  pmInit(void);
+bool  pmUSBPower(void);
+bool  pmIsCharging(void);
 float pmGetVBAT(void);
-void pmProcess(void);
-
+void  pmProcess(void);
+void  powerOff(void);
+void  powerOn(void);
 
 #endif //__PM_H

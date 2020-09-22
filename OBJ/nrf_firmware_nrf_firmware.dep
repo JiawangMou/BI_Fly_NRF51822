@@ -1,0 +1,145 @@
+Dependencies for Project 'nrf_firmware', Target 'nrf_firmware': (DO NOT MODIFY !)
+F (.\main.c)(0x5EFC5069)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf_gpio.h)(0x57AAC973)
+I (..\HARDWARE\interface\led.h)(0x5912C1DA)
+I (..\HARDWARE\interface\pinout.h)(0x5F21314C)
+I (..\HARDWARE\interface\button.h)(0x59265DDB)
+I (..\HARDWARE\interface\pm.h)(0x592662E1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\HARDWARE\interface\systick.h)(0x592663AC)
+I (..\COMMUNICATE\interface\radiolink.h)(0x5934C393)
+I (..\HARDWARE\interface\atkp.h)(0x592E2A67)
+I (..\HARDWARE\interface\esb.h)(0x592661C6)
+I (..\COMMUNICATE\interface\uartlink.h)(0x59265B18)
+I (..\HARDWARE\interface\config_param.h)(0x59E9CC3A)
+I (..\HARDWARE\interface\uart.h)(0x5926642A)
+F (.\system_nrf51.c)(0x57AAC95B)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\system_nrf51.o --omf_browse ..\obj\system_nrf51.crf --depend ..\obj\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+F (.\arm_startup_nrf51.s)(0x57AAC95B)(--cpu Cortex-M0 -g --apcs=interwork -IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "NRF51822_XXAB SETA 1"--list ..\obj\arm_startup_nrf51.lst --xref -o ..\obj\arm_startup_nrf51.o --depend ..\obj\arm_startup_nrf51.d)
+F (..\COMMUNICATE\src\radiolink.c)(0x594266BD)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\radiolink.o --omf_browse ..\obj\radiolink.crf --depend ..\obj\radiolink.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\COMMUNICATE\interface\radiolink.h)(0x5934C393)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\HARDWARE\interface\atkp.h)(0x592E2A67)
+I (..\HARDWARE\interface\esb.h)(0x592661C6)
+I (..\HARDWARE\interface\config_param.h)(0x59E9CC3A)
+F (..\COMMUNICATE\src\uartlink.c)(0x59265B18)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\uartlink.o --omf_browse ..\obj\uartlink.crf --depend ..\obj\uartlink.d)
+I (..\COMMUNICATE\interface\uartlink.h)(0x59265B18)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\HARDWARE\interface\atkp.h)(0x592E2A67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\HARDWARE\interface\uart.h)(0x5926642A)
+F (..\HARDWARE\src\button.c)(0x5926658D)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\button.o --omf_browse ..\obj\button.crf --depend ..\obj\button.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf_gpio.h)(0x57AAC973)
+I (..\HARDWARE\interface\pinout.h)(0x5F21314C)
+I (..\HARDWARE\interface\button.h)(0x59265DDB)
+I (..\HARDWARE\interface\systick.h)(0x592663AC)
+F (..\HARDWARE\src\config_param.c)(0x5934C643)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\config_param.o --omf_browse ..\obj\config_param.crf --depend ..\obj\config_param.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\HARDWARE\interface\config_param.h)(0x59E9CC3A)
+I (..\HARDWARE\interface\esb.h)(0x592661C6)
+F (..\HARDWARE\src\esb.c)(0x594107A1)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\esb.o --omf_browse ..\obj\esb.crf --depend ..\obj\esb.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\HARDWARE\interface\esb.h)(0x592661C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\HARDWARE\interface\atkp.h)(0x592E2A67)
+I (..\COMMUNICATE\interface\radiolink.h)(0x5934C393)
+F (..\HARDWARE\src\pm.c)(0x5EFC8857)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\pm.o --omf_browse ..\obj\pm.crf --depend ..\obj\pm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf_gpio.h)(0x57AAC973)
+I (..\HARDWARE\interface\pinout.h)(0x5F21314C)
+I (..\HARDWARE\interface\pm.h)(0x592662E1)
+I (..\HARDWARE\interface\led.h)(0x5912C1DA)
+I (..\HARDWARE\interface\systick.h)(0x592663AC)
+I (..\HARDWARE\interface\uart.h)(0x5926642A)
+F (..\HARDWARE\src\systick.c)(0x59426718)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\systick.o --omf_browse ..\obj\systick.crf --depend ..\obj\systick.d)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\HARDWARE\interface\systick.h)(0x592663AC)
+F (..\HARDWARE\src\uart.c)(0x5EFA9941)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\nrf51_sdk\nrf51822\Include\gcc -I ..\nrf51_sdk\nrf51822\Include -I ..\HARDWARE\interface -I ..\COMMUNICATE\interface-IC:\Users\asus\Desktop\BI_Fly_NRF51822\USER\RTE-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DNRF51822_XXAB -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBLE="0" -DS110="1"-o ..\obj\uart.o --omf_browse ..\obj\uart.crf --depend ..\obj\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\nrf51_sdk\nrf51822\Include\nrf.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h)(0x57AAC977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F128BE8)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h)(0x57AAC977)
+I (..\nrf51_sdk\nrf51822\Include\system_nrf51.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_bitfields.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf51_deprecated.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\compiler_abstraction.h)(0x57AAC973)
+I (..\nrf51_sdk\nrf51822\Include\nrf_gpio.h)(0x57AAC973)
+I (..\HARDWARE\interface\pinout.h)(0x5F21314C)
+I (..\HARDWARE\interface\uart.h)(0x5926642A)
+F (..\README.txt)(0x5BF13839)()
