@@ -1,9 +1,9 @@
 ..\obj\pm.o: ..\HARDWARE\src\pm.c
-..\obj\pm.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\pm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\obj\pm.o: ..\nrf51_sdk\nrf51822\Include\nrf.h
 ..\obj\pm.o: ..\nrf51_sdk\nrf51822\Include\nrf51.h
 ..\obj\pm.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cm0.h
-..\obj\pm.o: D:\Program Files (x86)\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\pm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\pm.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cmInstr.h
 ..\obj\pm.o: ..\nrf51_sdk\nrf51822\Include\gcc\core_cmFunc.h
 ..\obj\pm.o: ..\nrf51_sdk\nrf51822\Include\system_nrf51.h

@@ -522,33 +522,33 @@ Image Symbol Table
     i.pmIsCharging                           0x0000154c   Section        0  pm.o(i.pmIsCharging)
     i.pmPowerOn                              0x00001560   Section        0  pm.o(i.pmPowerOn)
     i.pmProcess                              0x0000158c   Section        0  pm.o(i.pmProcess)
-    i.pmStartAdc                             0x00001630   Section        0  pm.o(i.pmStartAdc)
-    pmStartAdc                               0x00001631   Thumb Code    16  pm.o(i.pmStartAdc)
-    i.pmUSBPower                             0x0000164c   Section        0  pm.o(i.pmUSBPower)
-    i.radiolinkInit                          0x00001660   Section        0  radiolink.o(i.radiolinkInit)
-    i.radiolinkReceiveATKPPacket             0x00001698   Section        0  radiolink.o(i.radiolinkReceiveATKPPacket)
-    i.radiolinkSendATKPPacket                0x000016d4   Section        0  radiolink.o(i.radiolinkSendATKPPacket)
-    i.radiolinkSetAddress                    0x00001710   Section        0  radiolink.o(i.radiolinkSetAddress)
-    i.radiolinkSetChannel                    0x00001720   Section        0  radiolink.o(i.radiolinkSetChannel)
-    i.radiolinkSetDatarate                   0x0000172c   Section        0  radiolink.o(i.radiolinkSetDatarate)
-    i.setupRx                                0x00001738   Section        0  esb.o(i.setupRx)
-    setupRx                                  0x00001739   Thumb Code    52  esb.o(i.setupRx)
-    i.setupTx                                0x00001784   Section        0  esb.o(i.setupTx)
-    setupTx                                  0x00001785   Thumb Code   184  esb.o(i.setupTx)
-    i.swap_bits                              0x00001860   Section        0  esb.o(i.swap_bits)
-    swap_bits                                0x00001861   Thumb Code    36  esb.o(i.swap_bits)
-    i.systickGetTick                         0x00001884   Section        0  systick.o(i.systickGetTick)
-    i.systickInit                            0x00001890   Section        0  systick.o(i.systickInit)
-    i.uartGetc                               0x000018e4   Section        0  uart.o(i.uartGetc)
-    i.uartInit                               0x00001930   Section        0  uart.o(i.uartInit)
-    i.uartIsDataReceived                     0x000019f8   Section        0  uart.o(i.uartIsDataReceived)
-    i.uartPutc                               0x00001a24   Section        0  uart.o(i.uartPutc)
-    i.uartlinkReceiveATKPPacket              0x00001a54   Section        0  uartlink.o(i.uartlinkReceiveATKPPacket)
-    i.uartlinkSendATKPPacket                 0x00001ba0   Section        0  uartlink.o(i.uartlinkSendATKPPacket)
-    i.writeConfigParamToFlash                0x00001bf8   Section        0  config_param.o(i.writeConfigParamToFlash)
-    .constdata                               0x00001c3c   Section      128  ddiv.o(.constdata)
-    x$fpl$usenofp                            0x00001c3c   Section        0  usenofp.o(x$fpl$usenofp)
-    ddiv_reciptbl                            0x00001c3c   Data         128  ddiv.o(.constdata)
+    i.pmStartAdc                             0x00001634   Section        0  pm.o(i.pmStartAdc)
+    pmStartAdc                               0x00001635   Thumb Code    16  pm.o(i.pmStartAdc)
+    i.pmUSBPower                             0x00001650   Section        0  pm.o(i.pmUSBPower)
+    i.radiolinkInit                          0x00001664   Section        0  radiolink.o(i.radiolinkInit)
+    i.radiolinkReceiveATKPPacket             0x0000169c   Section        0  radiolink.o(i.radiolinkReceiveATKPPacket)
+    i.radiolinkSendATKPPacket                0x000016d8   Section        0  radiolink.o(i.radiolinkSendATKPPacket)
+    i.radiolinkSetAddress                    0x00001714   Section        0  radiolink.o(i.radiolinkSetAddress)
+    i.radiolinkSetChannel                    0x00001724   Section        0  radiolink.o(i.radiolinkSetChannel)
+    i.radiolinkSetDatarate                   0x00001730   Section        0  radiolink.o(i.radiolinkSetDatarate)
+    i.setupRx                                0x0000173c   Section        0  esb.o(i.setupRx)
+    setupRx                                  0x0000173d   Thumb Code    52  esb.o(i.setupRx)
+    i.setupTx                                0x00001788   Section        0  esb.o(i.setupTx)
+    setupTx                                  0x00001789   Thumb Code   184  esb.o(i.setupTx)
+    i.swap_bits                              0x00001864   Section        0  esb.o(i.swap_bits)
+    swap_bits                                0x00001865   Thumb Code    36  esb.o(i.swap_bits)
+    i.systickGetTick                         0x00001888   Section        0  systick.o(i.systickGetTick)
+    i.systickInit                            0x00001894   Section        0  systick.o(i.systickInit)
+    i.uartGetc                               0x000018e8   Section        0  uart.o(i.uartGetc)
+    i.uartInit                               0x00001934   Section        0  uart.o(i.uartInit)
+    i.uartIsDataReceived                     0x000019fc   Section        0  uart.o(i.uartIsDataReceived)
+    i.uartPutc                               0x00001a28   Section        0  uart.o(i.uartPutc)
+    i.uartlinkReceiveATKPPacket              0x00001a58   Section        0  uartlink.o(i.uartlinkReceiveATKPPacket)
+    i.uartlinkSendATKPPacket                 0x00001ba4   Section        0  uartlink.o(i.uartlinkSendATKPPacket)
+    i.writeConfigParamToFlash                0x00001bfc   Section        0  config_param.o(i.writeConfigParamToFlash)
+    .constdata                               0x00001c40   Section      128  ddiv.o(.constdata)
+    x$fpl$usenofp                            0x00001c40   Section        0  usenofp.o(x$fpl$usenofp)
+    ddiv_reciptbl                            0x00001c40   Data         128  ddiv.o(.constdata)
     .data                                    0x20000000   Section        8  main.o(.data)
     vbatSendTime                             0x20000000   Data           4  main.o(.data)
     radioRSSISendTime                        0x20000004   Data           4  main.o(.data)
@@ -781,25 +781,25 @@ Image Symbol Table
     pmIsCharging                             0x0000154d   Thumb Code    20  pm.o(i.pmIsCharging)
     pmPowerOn                                0x00001561   Thumb Code    44  pm.o(i.pmPowerOn)
     pmProcess                                0x0000158d   Thumb Code   130  pm.o(i.pmProcess)
-    pmUSBPower                               0x0000164d   Thumb Code    20  pm.o(i.pmUSBPower)
-    radiolinkInit                            0x00001661   Thumb Code    52  radiolink.o(i.radiolinkInit)
-    radiolinkReceiveATKPPacket               0x00001699   Thumb Code    54  radiolink.o(i.radiolinkReceiveATKPPacket)
-    radiolinkSendATKPPacket                  0x000016d5   Thumb Code    60  radiolink.o(i.radiolinkSendATKPPacket)
-    radiolinkSetAddress                      0x00001711   Thumb Code    16  radiolink.o(i.radiolinkSetAddress)
-    radiolinkSetChannel                      0x00001721   Thumb Code    12  radiolink.o(i.radiolinkSetChannel)
-    radiolinkSetDatarate                     0x0000172d   Thumb Code    12  radiolink.o(i.radiolinkSetDatarate)
-    systickGetTick                           0x00001885   Thumb Code     6  systick.o(i.systickGetTick)
-    systickInit                              0x00001891   Thumb Code    64  systick.o(i.systickInit)
-    uartGetc                                 0x000018e5   Thumb Code    58  uart.o(i.uartGetc)
-    uartInit                                 0x00001931   Thumb Code   176  uart.o(i.uartInit)
-    uartIsDataReceived                       0x000019f9   Thumb Code    30  uart.o(i.uartIsDataReceived)
-    uartPutc                                 0x00001a25   Thumb Code    34  uart.o(i.uartPutc)
-    uartlinkReceiveATKPPacket                0x00001a55   Thumb Code   316  uartlink.o(i.uartlinkReceiveATKPPacket)
-    uartlinkSendATKPPacket                   0x00001ba1   Thumb Code    88  uartlink.o(i.uartlinkSendATKPPacket)
-    writeConfigParamToFlash                  0x00001bf9   Thumb Code    62  config_param.o(i.writeConfigParamToFlash)
-    __I$use$fp                               0x00001c3c   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Base                      0x00001cbc   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00001cdc   Number         0  anon$$obj.o(Region$$Table)
+    pmUSBPower                               0x00001651   Thumb Code    20  pm.o(i.pmUSBPower)
+    radiolinkInit                            0x00001665   Thumb Code    52  radiolink.o(i.radiolinkInit)
+    radiolinkReceiveATKPPacket               0x0000169d   Thumb Code    54  radiolink.o(i.radiolinkReceiveATKPPacket)
+    radiolinkSendATKPPacket                  0x000016d9   Thumb Code    60  radiolink.o(i.radiolinkSendATKPPacket)
+    radiolinkSetAddress                      0x00001715   Thumb Code    16  radiolink.o(i.radiolinkSetAddress)
+    radiolinkSetChannel                      0x00001725   Thumb Code    12  radiolink.o(i.radiolinkSetChannel)
+    radiolinkSetDatarate                     0x00001731   Thumb Code    12  radiolink.o(i.radiolinkSetDatarate)
+    systickGetTick                           0x00001889   Thumb Code     6  systick.o(i.systickGetTick)
+    systickInit                              0x00001895   Thumb Code    64  systick.o(i.systickInit)
+    uartGetc                                 0x000018e9   Thumb Code    58  uart.o(i.uartGetc)
+    uartInit                                 0x00001935   Thumb Code   176  uart.o(i.uartInit)
+    uartIsDataReceived                       0x000019fd   Thumb Code    30  uart.o(i.uartIsDataReceived)
+    uartPutc                                 0x00001a29   Thumb Code    34  uart.o(i.uartPutc)
+    uartlinkReceiveATKPPacket                0x00001a59   Thumb Code   316  uartlink.o(i.uartlinkReceiveATKPPacket)
+    uartlinkSendATKPPacket                   0x00001ba5   Thumb Code    88  uartlink.o(i.uartlinkSendATKPPacket)
+    writeConfigParamToFlash                  0x00001bfd   Thumb Code    62  config_param.o(i.writeConfigParamToFlash)
+    __I$use$fp                               0x00001c40   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Base                      0x00001cc0   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00001ce0   Number         0  anon$$obj.o(Region$$Table)
     SystemCoreClock                          0x20000008   Data           4  system_nrf51.o(.data)
     error                                    0x20000078   Data           4  uart.o(.data)
     configParam                              0x200000c4   Data          20  config_param.o(.bss)
@@ -814,9 +814,9 @@ Memory Map of the image
 
   Image Entry point : 0x000000c1
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00001d60, Max: 0x00020000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00001d64, Max: 0x00020000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x00001cdc, Max: 0x00020000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x00001ce0, Max: 0x00020000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -931,30 +931,30 @@ Memory Map of the image
     0x00001514   0x00000038   Code   RO          475    i.pmInit            pm.o
     0x0000154c   0x00000014   Code   RO          476    i.pmIsCharging      pm.o
     0x00001560   0x0000002c   Code   RO          478    i.pmPowerOn         pm.o
-    0x0000158c   0x000000a4   Code   RO          479    i.pmProcess         pm.o
-    0x00001630   0x0000001c   Code   RO          480    i.pmStartAdc        pm.o
-    0x0000164c   0x00000014   Code   RO          481    i.pmUSBPower        pm.o
-    0x00001660   0x00000038   Code   RO          170    i.radiolinkInit     radiolink.o
-    0x00001698   0x0000003c   Code   RO          171    i.radiolinkReceiveATKPPacket  radiolink.o
-    0x000016d4   0x0000003c   Code   RO          172    i.radiolinkSendATKPPacket  radiolink.o
-    0x00001710   0x00000010   Code   RO          173    i.radiolinkSetAddress  radiolink.o
-    0x00001720   0x0000000c   Code   RO          174    i.radiolinkSetChannel  radiolink.o
-    0x0000172c   0x0000000c   Code   RO          175    i.radiolinkSetDatarate  radiolink.o
-    0x00001738   0x0000004c   Code   RO          356    i.setupRx           esb.o
-    0x00001784   0x000000dc   Code   RO          357    i.setupTx           esb.o
-    0x00001860   0x00000024   Code   RO          358    i.swap_bits         esb.o
-    0x00001884   0x0000000c   Code   RO          563    i.systickGetTick    systick.o
-    0x00001890   0x00000054   Code   RO          564    i.systickInit       systick.o
-    0x000018e4   0x0000004c   Code   RO          612    i.uartGetc          uart.o
-    0x00001930   0x000000c8   Code   RO          613    i.uartInit          uart.o
-    0x000019f8   0x0000002c   Code   RO          614    i.uartIsDataReceived  uart.o
-    0x00001a24   0x00000030   Code   RO          615    i.uartPutc          uart.o
-    0x00001a54   0x0000014c   Code   RO          219    i.uartlinkReceiveATKPPacket  uartlink.o
-    0x00001ba0   0x00000058   Code   RO          220    i.uartlinkSendATKPPacket  uartlink.o
-    0x00001bf8   0x00000044   Code   RO          289    i.writeConfigParamToFlash  config_param.o
-    0x00001c3c   0x00000000   Code   RO          711    x$fpl$usenofp       fz_ps.l(usenofp.o)
-    0x00001c3c   0x00000080   Data   RO          702    .constdata          fz_ps.l(ddiv.o)
-    0x00001cbc   0x00000020   Data   RO          866    Region$$Table       anon$$obj.o
+    0x0000158c   0x000000a8   Code   RO          479    i.pmProcess         pm.o
+    0x00001634   0x0000001c   Code   RO          480    i.pmStartAdc        pm.o
+    0x00001650   0x00000014   Code   RO          481    i.pmUSBPower        pm.o
+    0x00001664   0x00000038   Code   RO          170    i.radiolinkInit     radiolink.o
+    0x0000169c   0x0000003c   Code   RO          171    i.radiolinkReceiveATKPPacket  radiolink.o
+    0x000016d8   0x0000003c   Code   RO          172    i.radiolinkSendATKPPacket  radiolink.o
+    0x00001714   0x00000010   Code   RO          173    i.radiolinkSetAddress  radiolink.o
+    0x00001724   0x0000000c   Code   RO          174    i.radiolinkSetChannel  radiolink.o
+    0x00001730   0x0000000c   Code   RO          175    i.radiolinkSetDatarate  radiolink.o
+    0x0000173c   0x0000004c   Code   RO          356    i.setupRx           esb.o
+    0x00001788   0x000000dc   Code   RO          357    i.setupTx           esb.o
+    0x00001864   0x00000024   Code   RO          358    i.swap_bits         esb.o
+    0x00001888   0x0000000c   Code   RO          563    i.systickGetTick    systick.o
+    0x00001894   0x00000054   Code   RO          564    i.systickInit       systick.o
+    0x000018e8   0x0000004c   Code   RO          612    i.uartGetc          uart.o
+    0x00001934   0x000000c8   Code   RO          613    i.uartInit          uart.o
+    0x000019fc   0x0000002c   Code   RO          614    i.uartIsDataReceived  uart.o
+    0x00001a28   0x00000030   Code   RO          615    i.uartPutc          uart.o
+    0x00001a58   0x0000014c   Code   RO          219    i.uartlinkReceiveATKPPacket  uartlink.o
+    0x00001ba4   0x00000058   Code   RO          220    i.uartlinkSendATKPPacket  uartlink.o
+    0x00001bfc   0x00000044   Code   RO          289    i.writeConfigParamToFlash  config_param.o
+    0x00001c40   0x00000000   Code   RO          711    x$fpl$usenofp       fz_ps.l(usenofp.o)
+    0x00001c40   0x00000080   Data   RO          702    .constdata          fz_ps.l(ddiv.o)
+    0x00001cc0   0x00000020   Data   RO          866    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000012c0, Max: 0x00004000, ABSOLUTE)
@@ -989,19 +989,19 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        84         36        192          0       3072        696   arm_startup_nrf51.o
-       372         28          0         24         20       4957   config_param.o
-      1326        262          0         48       1287      16091   esb.o
-       572         52          0          8         64      29353   main.o
-       414         70          0          8          0       7577   pm.o
-       228         16          0          1          0       4769   radiolink.o
-       220         26          0          4          0       1751   system_nrf51.o
-       268         46          0          4          0       8581   systick.o
-       612        110          0         24        128       4169   uart.o
-       448         26          0          4          0       2089   uartlink.o
+        84         36        192          0       3072        656   arm_startup_nrf51.o
+       372         28          0         24         20       4521   config_param.o
+      1326        262          0         48       1287      15079   esb.o
+       572         52          0          8         64      28641   main.o
+       418         74          0          8          0       6933   pm.o
+       228         16          0          1          0       4317   radiolink.o
+       220         26          0          4          0       1555   system_nrf51.o
+       268         46          0          4          0       8225   systick.o
+       612        110          0         24        128       3761   uart.o
+       448         26          0          4          0       1941   uartlink.o
 
     ----------------------------------------------------------------------
-      4548        672        224        132       4572      80033   Object Totals
+      4552        676        224        132       4572      75629   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          0          7          1          0   (incl. Padding)
 
@@ -1060,15 +1060,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      7036        748        352        132       4668      78173   Grand Totals
-      7036        748        352        132       4668      78173   ELF Image Totals
-      7036        748        352        132          0          0   ROM Totals
+      7040        752        352        132       4668      73769   Grand Totals
+      7040        752        352        132       4668      73769   ELF Image Totals
+      7040        752        352        132          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 7388 (   7.21kB)
+    Total RO  Size (Code + RO Data)                 7392 (   7.22kB)
     Total RW  Size (RW Data + ZI Data)              4800 (   4.69kB)
-    Total ROM Size (Code + RO Data + RW Data)       7520 (   7.34kB)
+    Total ROM Size (Code + RO Data + RW Data)       7524 (   7.35kB)
 
 ==============================================================================
 
