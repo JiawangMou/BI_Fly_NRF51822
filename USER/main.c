@@ -90,28 +90,28 @@ static void mainloop(void)
             {
                 handleRadioCmd(&radiolinkRxPacket);
             } else if (radiolinkRxPacket.msgID == DOWN_POWERCMD) {
-                // if (powerFlag == true) {
-                //     powerFlag           = false;
-                //     AckTxPacket.msgID   = DOWN_POWERCMD;
-                //     AckTxPacket.dataLen = 1;
-                //     AckTxPacket.data[0] = powerFlag;
-                //     radiolinkSendATKPPacket(&AckTxPacket);
-                //     powerOff();
-                //     LEDCountTime = systickGetTick();
-                // } else {
-                //     powerFlag = true;
-                //     powerOn();
-                //     AckTxPacket.msgID   = DOWN_POWERCMD;
-                //     AckTxPacket.dataLen = 1;
-                //     AckTxPacket.data[0] = powerFlag;
-                //     radiolinkSendATKPPacket(&AckTxPacket);
-                // }
-                if (radiolinkRxPacket.data[0] = 1) {
-                    powerOn();
-                } else {
+                if ((powerFlag == true) && (radiolinkRxPacket.data[0] == 0)) {
+                    powerFlag           = false;
+                    AckTxPacket.msgID   = DOWN_POWERCMD;
+                    AckTxPacket.dataLen = 1;
+                    AckTxPacket.data[0] = powerFlag;
+                    radiolinkSendATKPPacket(&AckTxPacket);
                     powerOff();
                     LEDCountTime = systickGetTick();
+                } else if ((powerFlag == false) && (radiolinkRxPacket.data[0] == 1)) {
+                    powerFlag = true;
+                    powerOn();
+                    AckTxPacket.msgID   = DOWN_POWERCMD;
+                    AckTxPacket.dataLen = 1;
+                    AckTxPacket.data[0] = powerFlag;
+                    radiolinkSendATKPPacket(&AckTxPacket);
                 }
+                // if (radiolinkRxPacket.data[0] == 1) {
+                //     powerOn();
+                // } else {
+                //     powerOff();
+                //     LEDCountTime = systickGetTick();
+                // }
             } else //转发给STM32
             {
                 if (powerFlag == true) {
@@ -126,7 +126,9 @@ static void mainloop(void)
 
             } else //转发给遥控器
             {
-                if (GSENABLE) {
+                if (GSENABLE
+                    || ((uartlinkRxPacket.msgID == UP_REMOTOR)
+                        && (uartlinkRxPacket.data[0] == 0x01))) { //如果是自检包，就直接发送
                     radiolinkSendATKPPacket(&uartlinkRxPacket);
                 }
             }
