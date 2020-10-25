@@ -24,6 +24,8 @@
  * Copyright(C) 广州市星翼电子科技有限公司 2014-2024
  * All rights reserved
  ********************************************************************************/
+#define GSENABLE 1
+
 static bool powerFlag = true;
 
 static void mainloop(void);
@@ -88,7 +90,7 @@ static void mainloop(void)
             {
                 handleRadioCmd(&radiolinkRxPacket);
             } else if (radiolinkRxPacket.msgID == DOWN_POWERCMD) {
-                if (powerFlag == true) {
+                if ((powerFlag == true) && radiolinkRxPacket.data[0] == 0) {
                     powerFlag           = false;
                     AckTxPacket.msgID   = DOWN_POWERCMD;
                     AckTxPacket.dataLen = 1;
@@ -96,7 +98,7 @@ static void mainloop(void)
                     radiolinkSendATKPPacket(&AckTxPacket);
                     powerOff();
                     LEDCountTime = systickGetTick();
-                } else {
+                } else if ((powerFlag == false) && (radiolinkRxPacket.data[0] == 1)) {
                     powerFlag = true;
                     powerOn();
                     AckTxPacket.msgID   = DOWN_POWERCMD;
@@ -104,7 +106,6 @@ static void mainloop(void)
                     AckTxPacket.data[0] = powerFlag;
                     radiolinkSendATKPPacket(&AckTxPacket);
                 }
-
             } else //转发给STM32
             {
                 if (powerFlag == true) {
@@ -119,7 +120,9 @@ static void mainloop(void)
 
             } else //转发给遥控器
             {
-                radiolinkSendATKPPacket(&uartlinkRxPacket);
+                if (GSENABLE || ((uartlinkRxPacket.msgID == UP_REMOTOR) && (uartlinkRxPacket.data[0] == 0x01))) {
+                    radiolinkSendATKPPacket(&uartlinkRxPacket);
+                }
             }
         }
 
