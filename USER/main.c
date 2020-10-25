@@ -120,7 +120,9 @@ static void mainloop(void)
 
             } else //转发给遥控器
             {
-                if (GSENABLE || ((uartlinkRxPacket.msgID == UP_REMOTOR) && (uartlinkRxPacket.data[0] == 0x01))) {
+                if (GSENABLE
+                    || ((uartlinkRxPacket.msgID == UP_REMOTOR)
+                        && (uartlinkRxPacket.data[0] == 0x01))) { //如果是自检包，就直接发送
                     radiolinkSendATKPPacket(&uartlinkRxPacket);
                 }
             }
