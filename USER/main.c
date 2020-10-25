@@ -24,6 +24,8 @@
  * Copyright(C) 广州市星翼电子科技有限公司 2014-2024
  * All rights reserved
  ********************************************************************************/
+#define GSENABLE 0
+
 static bool powerFlag = true;
 
 static void mainloop(void);
@@ -88,23 +90,28 @@ static void mainloop(void)
             {
                 handleRadioCmd(&radiolinkRxPacket);
             } else if (radiolinkRxPacket.msgID == DOWN_POWERCMD) {
-                if (powerFlag == true) {
-                    powerFlag           = false;
-                    AckTxPacket.msgID   = DOWN_POWERCMD;
-                    AckTxPacket.dataLen = 1;
-                    AckTxPacket.data[0] = powerFlag;
-                    radiolinkSendATKPPacket(&AckTxPacket);
+                // if (powerFlag == true) {
+                //     powerFlag           = false;
+                //     AckTxPacket.msgID   = DOWN_POWERCMD;
+                //     AckTxPacket.dataLen = 1;
+                //     AckTxPacket.data[0] = powerFlag;
+                //     radiolinkSendATKPPacket(&AckTxPacket);
+                //     powerOff();
+                //     LEDCountTime = systickGetTick();
+                // } else {
+                //     powerFlag = true;
+                //     powerOn();
+                //     AckTxPacket.msgID   = DOWN_POWERCMD;
+                //     AckTxPacket.dataLen = 1;
+                //     AckTxPacket.data[0] = powerFlag;
+                //     radiolinkSendATKPPacket(&AckTxPacket);
+                // }
+                if (radiolinkRxPacket.data[0] = 1) {
+                    powerOn();
+                } else {
                     powerOff();
                     LEDCountTime = systickGetTick();
-                } else {
-                    powerFlag = true;
-                    powerOn();
-                    AckTxPacket.msgID   = DOWN_POWERCMD;
-                    AckTxPacket.dataLen = 1;
-                    AckTxPacket.data[0] = powerFlag;
-                    radiolinkSendATKPPacket(&AckTxPacket);
                 }
-
             } else //转发给STM32
             {
                 if (powerFlag == true) {
@@ -119,7 +126,9 @@ static void mainloop(void)
 
             } else //转发给遥控器
             {
-                radiolinkSendATKPPacket(&uartlinkRxPacket);
+                if (GSENABLE) {
+                    radiolinkSendATKPPacket(&uartlinkRxPacket);
+                }
             }
         }
 
